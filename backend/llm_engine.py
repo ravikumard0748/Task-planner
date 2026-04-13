@@ -3,7 +3,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 import json
 import re
 
-HF_API_KEY = ""
+HF_API_KEY = "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"
 
 llm = HuggingFaceEndpoint(
     repo_id="meta-llama/Llama-3.1-8B-Instruct",
